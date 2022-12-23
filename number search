@@ -1,9 +1,10 @@
+##Pygame make random
 import random
 number= random.randint(1, 1000)
-attempts=0
+count=0
 while True:
     input_num =int(input('guess the number between (1,1000): '))
-    attempts+=1
+    count+=1
     if input_num ==  number:
         print('Your guess number is correct')
         break
