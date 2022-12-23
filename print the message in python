@@ -1,1 +1,2 @@
-print('Hello world')
+name='Mohammad Forhad'
+print('name: ', name)
