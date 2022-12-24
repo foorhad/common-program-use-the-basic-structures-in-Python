@@ -1,5 +1,6 @@
 ##Pygame make random
 import random
+##it's give different different number 
 number= random.randint(1, 100)
 count=0
 while True:
